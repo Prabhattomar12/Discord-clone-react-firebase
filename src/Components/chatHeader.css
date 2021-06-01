@@ -1,0 +1,57 @@
+.chatHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: grey;
+  /* background-color: #2f3136; */
+  padding: 10px;
+  border-bottom: 1px solid black;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.chatHeader_left {
+  display: flex;
+  align-items: center;
+}
+
+.chatHeader_left > h3 {
+  color: white;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.chatHeader_left > h3 > span {
+  font-size: 30px;
+  padding: 10px;
+}
+
+.chatHeader_right {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  justify-content: space-between;
+  flex: 0.5;
+}
+
+.chatHeader_right > .MuiSvgIcon-root {
+  padding: 10px;
+}
+
+.chatHeader_right > .MuiSvgIcon-root:hover {
+  color: white;
+  scale: 1.05;
+}
+
+.chatHeader_right > .chatHeader_search {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 33px;
+  background-color: white;
+}
+
+.chatHeader_search > input {
+  outline-width: 0;
+  border: none;
+}
